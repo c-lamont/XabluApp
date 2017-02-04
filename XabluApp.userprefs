@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{C968D25A-E460-4513-B6A7-59AEE8D798D7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.iOS/AppDelegate.cs">
+﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Droid/Activities/BaseActivity.cs">
     <Files>
-      <File FileName="XabluApp.iOS/AppDelegate.cs" Line="34" Column="1" />
-      <File FileName="XabluApp.iOS/AppDelegate.cs.txt" Line="19" Column="10" />
+      <File FileName="XabluApp.Droid/Activities/BaseActivity.cs" Line="30" Column="1" />
+      <File FileName="XabluApp.Droid/Activities/MainActivity.cs" Line="13" Column="57" />
+      <File FileName="../../BDO/GlobalPortalApp/GlobalPortalApp.Droid/Activities/MainActivity.cs" Line="8" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,4 +12,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XabluApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6202D91-D192-4551-8D20-3FEB9E0FFEDC" />
+  <MonoDevelop.Ide.ItemProperties.XabluApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Phone_6.0" />
 </Properties>
