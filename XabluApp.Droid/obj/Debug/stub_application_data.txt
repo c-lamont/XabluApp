@@ -1,2 +1,0 @@
-android.app.Application
-com.clamont.xabluapp_droid
