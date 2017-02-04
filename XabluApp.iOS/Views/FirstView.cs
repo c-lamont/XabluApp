@@ -1,5 +1,6 @@
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
+using XabluApp.Core;
 
 namespace XabluApp.iOS.Views
 {
@@ -13,9 +14,7 @@ namespace XabluApp.iOS.Views
         {
             base.ViewDidLoad();
 
-            var set = this.CreateBindingSet<FirstView, Core.ViewModels.FirstViewModel>();
-            set.Bind(Label).To(vm => vm.Hello);
-            set.Bind(TextField).To(vm => vm.Hello);
+            var set = this.CreateBindingSet<FirstView, EmployeesViewModel>();
             set.Apply();
         }
     }

@@ -1,3 +1,5 @@
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
 
 namespace XabluApp.Core
@@ -11,7 +13,9 @@ namespace XabluApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            Mvx.ConstructAndRegisterSingleton<IMvxAppStart, AppStart>();
+            var appStart = Mvx.Resolve<IMvxAppStart>();
+            RegisterAppStart(appStart);
         }
     }
 }

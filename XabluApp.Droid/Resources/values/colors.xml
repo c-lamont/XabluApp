@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+<!--Syles-->
+	<color name="colorPrimary">#136dbb</color>
+	<color name="colorPrimaryDark">#104284</color>
+	<color name="colorAccent">#1E2C3D</color>
+
+
+	<!-- White to Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#EFF2F5</color>
+    <color name="med_gray">#C7D2DC</color>
+    <color name="gray">#5C7082</color>
+    <color name="dark_gray">#FF2B343D</color>
+    <color name="black">#0D131A</color>
+    <color name="text_gray">#5A6570</color>
+
+	<!--Specific Color-->
+	<color name="border">#D7D7D7</color>
+	
+	<!--Text Color-->
+	<color name="black_87">#dd000000</color>
+	<color name="black_54">#89000000</color>
+	<color name="white_70">#b2ffffff</color>
+</resources>
