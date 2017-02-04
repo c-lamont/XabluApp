@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C968D25A-E460-4513-B6A7-59AEE8D798D7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="XabluApp.iOS/AppDelegate.cs" Line="34" Column="1" />
+      <File FileName="XabluApp.iOS/AppDelegate.cs.txt" Line="19" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XabluApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6202D91-D192-4551-8D20-3FEB9E0FFEDC" />
+</Properties>
