@@ -7,7 +7,7 @@ namespace XabluApp.Core
     {
         public void Start(object hint = null)
         {
-            ShowViewModel<EmployeesViewModel>();
+            ShowViewModel<AboutViewModel>();
         }
     }
 }

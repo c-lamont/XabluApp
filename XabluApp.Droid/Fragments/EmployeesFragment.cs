@@ -5,7 +5,7 @@ using XabluApp.Core;
 
 namespace XabluApp.Droid.Fragments
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame, true)]
+    [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame, false)]
     [Register("xabluapp.droid.fragments.EmployeesFragment")]
     public class EmployeesFragment : BaseFragment<EmployeesViewModel>
     {

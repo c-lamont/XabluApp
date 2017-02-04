@@ -8,5 +8,10 @@ namespace XabluApp.Core
         public MainViewModel()
         {
         }
+
+        public void ShowDrawerLayout()
+        {
+            ShowViewModel<DrawerViewModel>();
+        }
     }
 }

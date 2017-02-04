@@ -25,7 +25,6 @@ namespace XabluApp.Droid
         protected abstract int FragmentId { get; }
         protected virtual string Title => ((BaseViewModel)ViewModel).Title;
         public View MainView;
-        public bool InitializeDrawerLayout;
         public Toolbar _toolbar;
 
         public MvxCachingFragmentCompatActivity ParentActivity
@@ -51,23 +50,14 @@ namespace XabluApp.Droid
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
+            CloseDrawerMenu();
             MainView = this.BindingInflate(FragmentId, null);
 
-            _toolbar = MainView.FindViewById<Toolbar>(Resource.Id.toolbar);
-            if (_toolbar != null)
+            var baseViewModel = ViewModel as BaseViewModel;
+            if (baseViewModel != null)
             {
-                ParentActivity.SetSupportActionBar(_toolbar);
-                if (!string.IsNullOrEmpty(Title))
-                {
-                    ParentActivity.SupportActionBar.Title = Title;
-                    var baseViewModel = ViewModel as BaseViewModel;
-                    if (baseViewModel != null) baseViewModel.PropertyChanged += BaseViewModel_PropertyChanged;
-                }
-            }
-
-            if (InitializeDrawerLayout)
-            {
-                InitializeMainActivityDrawerLayout();
+                ParentActivity.SupportActionBar.Title = baseViewModel.Title;
+                baseViewModel.PropertyChanged += BaseViewModel_PropertyChanged;
             }
 
             return MainView;
@@ -78,15 +68,13 @@ namespace XabluApp.Droid
             var baseViewModel = (BaseViewModel)ViewModel;
             if (e.PropertyName == nameof(baseViewModel.Title))
             {
-                ParentActivity.SupportActionBar.Title = Title;
+                ParentActivity.SupportActionBar.Title = baseViewModel.Title;
             }
         }
 
-        public void InitializeMainActivityDrawerLayout()
+        private void CloseDrawerMenu()
         {
-            HasOptionsMenu = true;
-            var mainActivity = ParentActivity as MainActivity;
-            mainActivity?.SetDrawerLayout();
+            (this.ParentActivity as MainActivity)?.CloseDrawerMenu();
         }
     }
 }

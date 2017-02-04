@@ -6,5 +6,10 @@ namespace XabluApp.Core
         public EmployeesViewModel()
         {
         }
+
+        public void Init()
+        {
+            Title = "Employees";
+        }
     }
 }

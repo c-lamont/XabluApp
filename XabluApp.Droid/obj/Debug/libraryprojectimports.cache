@@ -11,6 +11,10 @@
     <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.V7.AppCompat/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.V7.RecyclerView/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.Design/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.RecyclerView/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/__library_projects__/MvvmCross.Platform.Droid/library_project_imports/assets</ResolvedAssetDirectory>
@@ -34,5 +38,9 @@
     <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.V7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.V7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/MvvmCross.Droid.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
