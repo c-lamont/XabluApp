@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.iOS/Views/FirstView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Droid/Activities/BaseActivity.cs">
     <Files>
       <File FileName="XabluApp.Droid/Activities/BaseActivity.cs" Line="30" Column="1" />
       <File FileName="XabluApp.Droid/Activities/MainActivity.cs" Line="13" Column="57" />
       <File FileName="../../BDO/GlobalPortalApp/GlobalPortalApp.Droid/Activities/MainActivity.cs" Line="8" Column="28" />
-      <File FileName="XabluApp.iOS/Views/FirstView.cs" Line="16" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
