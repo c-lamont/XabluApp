@@ -140,6 +140,7 @@
     <Compile Include="Helpers\CellTemplateSelector.cs" />
     <Compile Include="Fragments\AboutFragment.cs" />
     <Compile Include="Fragments\BlogsFragment.cs" />
+    <Compile Include="ValueConverters\DrawerIconValueConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -171,6 +172,9 @@
     <AndroidResource Include="Resources\layout\cell_header_layout.axml" />
     <AndroidResource Include="Resources\layout\empty_layout.axml" />
     <AndroidResource Include="Resources\layout\component_border_line_layout.axml" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_assignment_black_24dp.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_child_care_black_24dp.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_public_black_24dp.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -179,6 +183,7 @@
     <Folder Include="Resources\values-v21\" />
     <Folder Include="Fragments\" />
     <Folder Include="Helpers\" />
+    <Folder Include="ValueConverters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XabluApp.Core\XabluApp.Core.csproj">

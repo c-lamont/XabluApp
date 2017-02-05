@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Core/AppStart.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="XabluApp.Core/ViewModels/DrawerViewModel.cs" Line="48" Column="58" />
-      <File FileName="XabluApp.Droid/Fragments/BaseFragment.cs" Line="57" Column="1" />
-      <File FileName="XabluApp.Droid/Activities/MainActivity.cs" Line="74" Column="1" />
-      <File FileName="XabluApp.Droid/Fragments/BlogsFragment.cs" Line="7" Column="73" />
-      <File FileName="XabluApp.Droid/Fragments/EmployeesFragment.cs" Line="8" Column="73" />
-      <File FileName="XabluApp.Droid/Fragments/AboutFragment.cs" Line="8" Column="75" />
-      <File FileName="XabluApp.Core/ViewModels/DrawerCellViewModel.cs" Line="33" Column="1" />
-      <File FileName="XabluApp.Core/AppStart.cs" Line="10" Column="31" />
+      <File FileName="XabluApp.Droid/ValueConverters/DrawerIconValueConverter.cs" Line="7" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/christopherlamont/Projects/XabluApp/XabluApp.Core/ViewModels/DrawerCellViewModel.cs" line="33" column="1" />
-      <Breakpoint file="/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/Fragments/BaseFragment.cs" line="51" column="1" />
+      <Breakpoint file="/Users/christopherlamont/Projects/XabluApp/XabluApp.Droid/ValueConverters/DrawerIconValueConverter.cs" line="10" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
