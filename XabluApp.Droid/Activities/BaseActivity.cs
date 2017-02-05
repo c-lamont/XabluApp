@@ -15,7 +15,7 @@ namespace XabluApp.Droid.Activities
 
     public abstract class BaseActivity : MvxCachingFragmentCompatActivity
     {
-        protected abstract int FragmentId { get; }
+        protected abstract int LayoutID { get; }
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -23,7 +23,7 @@ namespace XabluApp.Droid.Activities
             this.Window.AddFlags(Android.Views.WindowManagerFlags.DrawsSystemBarBackgrounds);
             this.Window.ClearFlags(Android.Views.WindowManagerFlags.TranslucentStatus);
             this.Window.SetStatusBarColor(Resources.GetColor(Resource.Color.colorPrimaryDark));
-            SetContentView(FragmentId);
+            SetContentView(LayoutID);
         }
     }
 }

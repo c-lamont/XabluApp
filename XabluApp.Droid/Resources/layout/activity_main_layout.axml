@@ -4,15 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
-    <RelativeLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <include
+            layout="@layout/component_toolbar_layout" />
         <FrameLayout
             android:id="@+id/content_frame"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true" />
-    </RelativeLayout>
+            android:layout_height="match_parent" />
+    </LinearLayout>
     <FrameLayout
         android:id="@+id/left_drawer"
         android:layout_width="300dp"

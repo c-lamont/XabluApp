@@ -34,6 +34,13 @@
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="AppStart.cs" />
     <Compile Include="ViewModels\EmployeesViewModel.cs" />
+    <Compile Include="ViewModels\DrawerViewModel.cs" />
+    <Compile Include="ListItemModels\IHeaderCellViewModel.cs" />
+    <Compile Include="ListItemModels\ListItemModel.cs" />
+    <Compile Include="ViewModels\DrawerCellViewModel.cs" />
+    <Compile Include="ViewModels\AboutViewModel.cs" />
+    <Compile Include="ViewModels\BlogsViewModel.cs" />
+    <Compile Include="Helpers\OptimizedObservableCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -51,6 +58,10 @@
     <Reference Include="MvvmCross.Localization">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ListItemModels\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
