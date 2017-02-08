@@ -42,12 +42,20 @@ namespace XabluApp.Core
             this.ItemType = ListItemModelEnum.DrawerCellViewModel;
             this.DrawerCellViewModel = drawerCellItem;
         }
+
+        public EmployeeCellViewModel EmployeeCellViewModel { get; }
+        public ListItemModel(EmployeeCellViewModel employeeCellViewModel)
+        {
+            this.ItemType = ListItemModelEnum.EmployeeCellViewModel;
+            this.EmployeeCellViewModel = employeeCellViewModel;
+        }
     }
 
     public enum ListItemModelEnum
     {
         None,
         Header,
-        DrawerCellViewModel
+        DrawerCellViewModel,
+        EmployeeCellViewModel
     }
 }

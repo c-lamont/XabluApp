@@ -13,6 +13,11 @@ namespace XabluApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+            CreatableTypes()
+                .EndingWith("Client")
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+
             Mvx.ConstructAndRegisterSingleton<IMvxAppStart, AppStart>();
             var appStart = Mvx.Resolve<IMvxAppStart>();
             RegisterAppStart(appStart);

@@ -37,10 +37,17 @@
     <Compile Include="ViewModels\DrawerViewModel.cs" />
     <Compile Include="ListItemModels\IHeaderCellViewModel.cs" />
     <Compile Include="ListItemModels\ListItemModel.cs" />
-    <Compile Include="ViewModels\DrawerCellViewModel.cs" />
     <Compile Include="ViewModels\AboutViewModel.cs" />
     <Compile Include="ViewModels\BlogsViewModel.cs" />
     <Compile Include="Helpers\OptimizedObservableCollection.cs" />
+    <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="API\Interfaces\Services\IEmployeesService.cs" />
+    <Compile Include="API\Interfaces\Clients\IEmployeeClient.cs" />
+    <Compile Include="API\Clients\EmployeeClient.cs" />
+    <Compile Include="API\Services\EmployeeService.cs" />
+    <Compile Include="ViewModels\CellViewModels\DrawerCellViewModel.cs" />
+    <Compile Include="ViewModels\CellViewModels\EmployeeCellViewModel.cs" />
+    <Compile Include="ViewModels\EmployeeDetailViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -62,6 +69,14 @@
   <ItemGroup>
     <Folder Include="ListItemModels\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Models\" />
+    <Folder Include="API\" />
+    <Folder Include="API\Clients\" />
+    <Folder Include="API\Services\" />
+    <Folder Include="API\Interfaces\" />
+    <Folder Include="API\Interfaces\Clients\" />
+    <Folder Include="API\Interfaces\Services\" />
+    <Folder Include="ViewModels\CellViewModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
