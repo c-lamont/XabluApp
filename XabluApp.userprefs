@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Droid/Resources/layout/cell_employee_layout.axml">
-    <Files>
-      <File FileName="XabluApp.Droid/Resources/layout/cell_drawer_menu_layout.axml" Line="8" Column="65" />
-      <File FileName="XabluApp.Droid/Resources/layout/cell_blog_layout.axml" Line="9" Column="62" />
-      <File FileName="XabluApp.Droid/Resources/layout/cell_employee_layout.axml" Line="9" Column="62" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -162,7 +162,6 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\values\Styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
-    <AndroidResource Include="Resources\drawable\xablu_logo.png" />
     <AndroidResource Include="Resources\layout\activity_main_layout.axml" />
     <AndroidResource Include="Resources\layout\component_toolbar_layout.axml" />
     <AndroidResource Include="Resources\layout\fragment_employees_layout.axml" />
@@ -178,23 +177,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_public_black_24dp.png" />
     <AndroidResource Include="Resources\layout\fragment_employee_detail_layout.axml" />
     <AndroidResource Include="Resources\layout\cell_employee_layout.axml" />
-    <AndroidResource Include="Resources\drawable\Chris.jpg" />
-    <AndroidResource Include="Resources\drawable\Coen.jpg" />
-    <AndroidResource Include="Resources\drawable\Edwin.jpg" />
-    <AndroidResource Include="Resources\drawable\Eric.jpg" />
-    <AndroidResource Include="Resources\drawable\Harry.jpg" />
-    <AndroidResource Include="Resources\drawable\Marc.jpg" />
-    <AndroidResource Include="Resources\drawable\Martijn.jpg" />
-    <AndroidResource Include="Resources\drawable\Maurits.jpg" />
-    <AndroidResource Include="Resources\drawable\Tirza.jpg" />
-    <AndroidResource Include="Resources\drawable\corerelease.jpg" />
-    <AndroidResource Include="Resources\drawable\developertools.jpg" />
-    <AndroidResource Include="Resources\drawable\netstandard.jpg" />
-    <AndroidResource Include="Resources\drawable\partnersummit.jpeg" />
-    <AndroidResource Include="Resources\drawable\porttoxamarin.jpg" />
-    <AndroidResource Include="Resources\drawable\techdays.jpg" />
-    <AndroidResource Include="Resources\drawable\uiuxreview.jpg" />
-    <AndroidResource Include="Resources\drawable\xablupremierpartner.jpeg" />
     <AndroidResource Include="Resources\layout\cell_blog_layout.axml" />
   </ItemGroup>
   <ItemGroup>
