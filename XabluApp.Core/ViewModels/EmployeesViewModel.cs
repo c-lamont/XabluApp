@@ -31,6 +31,6 @@ namespace XabluApp.Core
 
         public OptimizedObservableCollection<ListItemModel> Employees { get; set; } = new OptimizedObservableCollection<ListItemModel>();
 
-        public MvxCommand SelectEmployeeCommand => new MvxCommand(() => ShowViewModel<EmployeeDetailViewModel>() );
+        public MvxCommand SelectEmployeeCommand; // => new MvxCommand(() => ShowViewModel<EmployeeDetailViewModel>() );
     }
 }

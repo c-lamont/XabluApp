@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Core/ViewModels/EmployeesViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Core/API/Clients/EmployeeClient.cs">
     <Files>
-      <File FileName="XabluApp.Core/ListItemModels/ListItemModel.cs" Line="46" Column="32" />
-      <File FileName="XabluApp.Core/ViewModels/CellViewModels/EmployeeCellViewModel.cs" Line="19" Column="25" />
-      <File FileName="XabluApp.Core/ViewModels/EmployeesViewModel.cs" Line="34" Column="48" />
-      <File FileName="XabluApp.Core/Models/EmployeeModel.cs" Line="4" Column="18" />
-      <File FileName="XabluApp.Core/API/Clients/EmployeeClient.cs" Line="39" Column="69" />
-      <File FileName="XabluApp.Droid/ValueConverters/NameToImageValueConverter.cs" Line="10" Column="1" />
-      <File FileName="XabluApp.Core/ViewModels/EmployeeDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Core/Models/BlogModel.cs" Line="11" Column="9" />
+      <File FileName="XabluApp.Core/API/Clients/BlogClient.cs" Line="7" Column="37" />
+      <File FileName="XabluApp.Core/API/Interfaces/Clients/IBlogClient.cs" Line="10" Column="41" />
+      <File FileName="XabluApp.Core/API/Interfaces/Services/IEmployeesService.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Core/API/Interfaces/Services/IBlogService.cs" Line="10" Column="41" />
+      <File FileName="XabluApp.Core/API/Clients/EmployeeClient.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -16,5 +15,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XabluApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6202D91-D192-4551-8D20-3FEB9E0FFEDC" />
-  <MonoDevelop.Ide.ItemProperties.XabluApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Phone_6.0" />
+  <MonoDevelop.Ide.ItemProperties.XabluApp.Droid PreferredExecutionTarget="Android.Phone_6.0" />
 </Properties>

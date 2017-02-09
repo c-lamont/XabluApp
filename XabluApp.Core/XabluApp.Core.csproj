@@ -48,6 +48,10 @@
     <Compile Include="ViewModels\CellViewModels\DrawerCellViewModel.cs" />
     <Compile Include="ViewModels\CellViewModels\EmployeeCellViewModel.cs" />
     <Compile Include="ViewModels\EmployeeDetailViewModel.cs" />
+    <Compile Include="Models\BlogModel.cs" />
+    <Compile Include="API\Clients\BlogClient.cs" />
+    <Compile Include="API\Interfaces\Clients\IBlogClient.cs" />
+    <Compile Include="API\Interfaces\Services\IBlogService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
