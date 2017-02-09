@@ -1,5 +1,14 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Core/ViewModels/BlogsViewModel.cs">
+    <Files>
+      <File FileName="XabluApp.Droid/Fragments/DrawerFragment.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Core/ViewModels/DrawerViewModel.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Core/ViewModels/CellViewModels/DrawerCellViewModel.cs" Line="31" Column="10" />
+      <File FileName="XabluApp.Core/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Droid/Fragments/AboutFragment.cs" Line="5" Column="21" />
+      <File FileName="XabluApp.Core/ViewModels/BlogsViewModel.cs" Line="35" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

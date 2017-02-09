@@ -30,6 +30,9 @@ namespace XabluApp.Core
 
         public OptimizedObservableCollection<ListItemModel> Blogs { get; set; } = new OptimizedObservableCollection<ListItemModel>();
 
-        public MvxCommand SelectBlogCommand; //todo
+        public MvxCommand<ListItemModel> SelectBlogCommand => new MvxCommand<ListItemModel>(li =>
+        {
+            ShowViewModel<WebViewViewModel>(new { webUrl = li.BlogCellViewModel.Blog.Url });
+        });
     }
 }

@@ -143,6 +143,7 @@
     <Compile Include="ValueConverters\DrawerIconValueConverter.cs" />
     <Compile Include="Fragments\EmployeeDetailFragment.cs" />
     <Compile Include="ValueConverters\NameToImageValueConverter.cs" />
+    <Compile Include="Fragments\WebViewFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -178,6 +179,25 @@
     <AndroidResource Include="Resources\layout\fragment_employee_detail_layout.axml" />
     <AndroidResource Include="Resources\layout\cell_employee_layout.axml" />
     <AndroidResource Include="Resources\layout\cell_blog_layout.axml" />
+    <AndroidResource Include="Resources\drawable\Chris.jpg" />
+    <AndroidResource Include="Resources\drawable\Coen.jpg" />
+    <AndroidResource Include="Resources\drawable\corerelease.jpg" />
+    <AndroidResource Include="Resources\drawable\developertools.jpg" />
+    <AndroidResource Include="Resources\drawable\Edwin.jpg" />
+    <AndroidResource Include="Resources\drawable\Eric.jpg" />
+    <AndroidResource Include="Resources\drawable\Harry.jpg" />
+    <AndroidResource Include="Resources\drawable\Marc.jpg" />
+    <AndroidResource Include="Resources\drawable\Martijn.jpg" />
+    <AndroidResource Include="Resources\drawable\Maurits.jpg" />
+    <AndroidResource Include="Resources\drawable\netstandard.jpg" />
+    <AndroidResource Include="Resources\drawable\partnersummit.jpeg" />
+    <AndroidResource Include="Resources\drawable\porttoxamarin.jpg" />
+    <AndroidResource Include="Resources\drawable\techdays.jpg" />
+    <AndroidResource Include="Resources\drawable\Tirza.jpg" />
+    <AndroidResource Include="Resources\drawable\uiuxreview.jpg" />
+    <AndroidResource Include="Resources\drawable\xablu_logo.png" />
+    <AndroidResource Include="Resources\drawable\xablupremierpartner.jpeg" />
+    <AndroidResource Include="Resources\layout\fragment_webview_layout.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
