@@ -9,6 +9,12 @@ namespace XabluApp.Core
             set;
         }
 
+        public string ImageName
+        {
+            get;
+            set;
+        }
+
         public string Name
         {
             get;

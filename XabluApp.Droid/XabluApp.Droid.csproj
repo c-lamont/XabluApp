@@ -142,6 +142,7 @@
     <Compile Include="Fragments\BlogsFragment.cs" />
     <Compile Include="ValueConverters\DrawerIconValueConverter.cs" />
     <Compile Include="Fragments\EmployeeDetailFragment.cs" />
+    <Compile Include="ValueConverters\NameToImageValueConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -177,7 +178,15 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_public_black_24dp.png" />
     <AndroidResource Include="Resources\layout\fragment_employee_detail_layout.axml" />
     <AndroidResource Include="Resources\layout\cell_employee_layout.axml" />
-    <AndroidResource Include="Resources\drawable\chris.jpg" />
+    <AndroidResource Include="Resources\drawable\Chris.jpg" />
+    <AndroidResource Include="Resources\drawable\Coen.jpg" />
+    <AndroidResource Include="Resources\drawable\Edwin.jpg" />
+    <AndroidResource Include="Resources\drawable\Eric.jpg" />
+    <AndroidResource Include="Resources\drawable\Harry.jpg" />
+    <AndroidResource Include="Resources\drawable\Marc.jpg" />
+    <AndroidResource Include="Resources\drawable\Martijn.jpg" />
+    <AndroidResource Include="Resources\drawable\Maurits.jpg" />
+    <AndroidResource Include="Resources\drawable\Tirza.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
