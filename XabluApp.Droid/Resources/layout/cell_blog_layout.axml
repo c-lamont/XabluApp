@@ -12,7 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_gravity="center_vertical"
-        local:MvxBind="DrawableId NameToImage(EmployeeCellViewModel.Employee.ImageName)" />
+        local:MvxBind="DrawableId NameToImage(BlogCellViewModel.Blog.ImageName)" />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -23,12 +23,12 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black_87"
             android:textSize="@dimen/text_medium"
-            local:MvxBind="Text EmployeeCellViewModel.Employee.Name" />
+            local:MvxBind="Text BlogCellViewModel.Blog.Title" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black_54"
             android:textSize="@dimen/text_small"
-            local:MvxBind="Text EmployeeCellViewModel.Employee.Position" />
+            local:MvxBind="Text BlogCellViewModel.Blog.Author" />
     </LinearLayout>
 </LinearLayout>
