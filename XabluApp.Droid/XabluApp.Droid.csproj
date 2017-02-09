@@ -195,6 +195,7 @@
     <AndroidResource Include="Resources\drawable\techdays.jpg" />
     <AndroidResource Include="Resources\drawable\uiuxreview.jpg" />
     <AndroidResource Include="Resources\drawable\xablupremierpartner.jpeg" />
+    <AndroidResource Include="Resources\layout\cell_blog_layout.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -52,6 +52,8 @@
     <Compile Include="API\Clients\BlogClient.cs" />
     <Compile Include="API\Interfaces\Clients\IBlogClient.cs" />
     <Compile Include="API\Interfaces\Services\IBlogService.cs" />
+    <Compile Include="ViewModels\CellViewModels\BlogCellViewModel.cs" />
+    <Compile Include="API\Services\BlogService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

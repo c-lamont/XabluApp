@@ -8,6 +8,7 @@ namespace XabluApp.Droid.Helpers
         private const int _HeaderCell = 1;
         private const int _DrawerCellViewModel = 2;
         private const int _EmployeeCellViewModel = 3;
+        private const int _BlogCellViewModel = 4;
 
         public override int GetItemLayoutId(int fromViewType)
         {
@@ -24,6 +25,11 @@ namespace XabluApp.Droid.Helpers
             if (fromViewType == _EmployeeCellViewModel)
             {
                 return Resource.Layout.cell_employee_layout;
+            }
+
+            if (fromViewType == _BlogCellViewModel)
+            {
+                return Resource.Layout.cell_blog_layout;
             }
 
             return Resource.Layout.empty_layout;
@@ -44,6 +50,8 @@ namespace XabluApp.Droid.Helpers
                     return _DrawerCellViewModel;
                 case ListItemModelEnum.EmployeeCellViewModel:
                     return _EmployeeCellViewModel;
+                case ListItemModelEnum.BlogCellViewModel:
+                    return _BlogCellViewModel;
                 default:
                     return 0;
             }

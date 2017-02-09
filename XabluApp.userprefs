@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{7266266E-FEE6-41AB-8133-B9B13AC10DC5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Core/API/Clients/EmployeeClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XabluApp.Droid/Resources/layout/cell_employee_layout.axml">
     <Files>
-      <File FileName="XabluApp.Core/Models/BlogModel.cs" Line="11" Column="9" />
-      <File FileName="XabluApp.Core/API/Clients/BlogClient.cs" Line="7" Column="37" />
-      <File FileName="XabluApp.Core/API/Interfaces/Clients/IBlogClient.cs" Line="10" Column="41" />
-      <File FileName="XabluApp.Core/API/Interfaces/Services/IEmployeesService.cs" Line="1" Column="1" />
-      <File FileName="XabluApp.Core/API/Interfaces/Services/IBlogService.cs" Line="10" Column="41" />
-      <File FileName="XabluApp.Core/API/Clients/EmployeeClient.cs" Line="1" Column="1" />
+      <File FileName="XabluApp.Droid/Resources/layout/cell_drawer_menu_layout.axml" Line="8" Column="65" />
+      <File FileName="XabluApp.Droid/Resources/layout/cell_blog_layout.axml" Line="9" Column="62" />
+      <File FileName="XabluApp.Droid/Resources/layout/cell_employee_layout.axml" Line="9" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,5 +12,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XabluApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6202D91-D192-4551-8D20-3FEB9E0FFEDC" />
-  <MonoDevelop.Ide.ItemProperties.XabluApp.Droid PreferredExecutionTarget="Android.Phone_6.0" />
+  <MonoDevelop.Ide.ItemProperties.XabluApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Phone_6.0" />
 </Properties>

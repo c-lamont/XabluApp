@@ -49,6 +49,13 @@ namespace XabluApp.Core
             this.ItemType = ListItemModelEnum.EmployeeCellViewModel;
             this.EmployeeCellViewModel = employeeCellViewModel;
         }
+
+        public BlogCellViewModel BlogCellViewModel { get; }
+        public ListItemModel(BlogCellViewModel blogCellViewModel)
+        {
+            this.ItemType = ListItemModelEnum.BlogCellViewModel;
+            this.BlogCellViewModel = blogCellViewModel;
+        }
     }
 
     public enum ListItemModelEnum
@@ -56,6 +63,7 @@ namespace XabluApp.Core
         None,
         Header,
         DrawerCellViewModel,
-        EmployeeCellViewModel
+        EmployeeCellViewModel,
+        BlogCellViewModel
     }
 }
